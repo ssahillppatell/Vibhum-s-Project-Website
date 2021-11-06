@@ -26,7 +26,7 @@ module.exports = {
      *
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
-    base: './',
+    base: './Vibhum-s-Project-Website/',
     themeConfig: {
         repo: '',
         editLinks: false,
