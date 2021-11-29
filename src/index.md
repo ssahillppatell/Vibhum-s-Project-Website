@@ -1,9 +1,9 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: 
+heroImage: https://www.iitp.ac.in/ilc/img/left_logo.png
+tagline: Department of Mechanical Engineering (IITP)
 actionText: Quick Start →
-actionLink: /guide/
+actionLink: /content/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description

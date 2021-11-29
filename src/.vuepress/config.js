@@ -4,7 +4,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'Vuepress Docs Boilerplate',
+    title: 'ENGINEERING PRACTICUM',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
@@ -35,24 +35,16 @@ module.exports = {
         lastUpdated: false,
         nav: [
             {
-                text: 'Guide',
-                link: '/guide/',
-            },
-            {
-                text: 'Config',
-                link: '/config/',
-            },
-            {
-                text: 'VuePress',
-                link: 'https://v1.vuepress.vuejs.org',
-            },
+                text: 'Content',
+                link: '/content/',
+            }
         ],
         sidebar: {
-            '/guide/': [
+            '/content/': [
                 {
-                    title: 'Guide',
+                    title: 'Content',
                     collapsable: false,
-                    children: ['', 'using-vue'],
+                    children: ['', 'practical-uses', 'our-team', 'theory', 'problems', 'solid-works', 'report', 'ppt', 'sources', 'our-team'],
                 },
             ],
         },
@@ -62,4 +54,11 @@ module.exports = {
      * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
      */
     plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
+    configureWebpack: {
+        resolve: {
+          alias: {
+            '@alias': 'assets'
+          }
+        }
+      }
 };

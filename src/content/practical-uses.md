@@ -1,4 +1,4 @@
-# Using Vue in Markdown
+# Practical Uses
 
 ## Browser API Access Restrictions
 
