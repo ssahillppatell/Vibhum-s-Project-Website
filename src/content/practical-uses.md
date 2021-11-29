@@ -1,9 +1,15 @@
 # Practical Uses
+A vehicle weighing 1000 kg going up a height of 10 cm on a speed bump produces approximately 1 kilowatt power.
 
-## Browser API Access Restrictions
+1 speed breaker 1 vehicle….1KW  
+1 speed breaker 100 vehicles …. 100 KW
 
-Because VuePress applications are server-rendered in Node.js when generating static builds, any Vue usage must conform to the [universal code requirements](https://ssr.vuejs.org/en/universal.html). In short, make sure to only access Browser / DOM APIs in `beforeMount` or `mounted` hooks.
+- Low budget electricity production
 
-If you are using or demoing components that are not SSR friendly (for example containing custom directives), you can wrap them inside the built-in `<ClientOnly>` component:
+- No obstruction to traffic
+ 
+- Easy maintenance
 
-##
+- Suitable at parking of multiplexes, malls, toll booths, signals, etc.
+
+- Uses: Charging batteries and using them to light up the streets, etc.
