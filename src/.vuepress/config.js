@@ -36,16 +36,16 @@ module.exports = {
         lastUpdated: false,
         nav: [
             {
-                text: 'Content',
-                link: '/content/',
+                text: 'Guide',
+                link: '/guide/',
             }
         ],
         sidebar: {
-            '/content/': [
+            '/guide/': [
                 {
-                    title: 'Content',
+                    title: 'Table of Content',
                     collapsable: false,
-                    children: ['aim', 'introduction', 'practical-uses', 'theory', 'problems', 'solid-works', 'report', 'ppt', 'sources', 'our-team'],
+                    children: ['', 'introduction', 'practical-uses', 'theory', 'problems', 'solid-works', 'report', 'ppt', 'sources', 'our-team'],
                 },
             ],
         },
@@ -54,12 +54,5 @@ module.exports = {
     /**
      * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
      */
-    plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom'],
-    configureWebpack: {
-        resolve: {
-          alias: {
-            '@alias': 'assets'
-          }
-        }
-      }
+    plugins: ['@vuepress/plugin-back-to-top', '@vuepress/plugin-medium-zoom']
 };
