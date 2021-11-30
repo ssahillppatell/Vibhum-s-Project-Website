@@ -5,11 +5,10 @@ tagline: Department of Mechanical Engineering (IITP)
 actionText: Quick Start →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Saumitra Gupta
+- title: Divyansh Bhardwaj
+- title: Raj kumar Patel
+- title: Shubham Rajendra Bhagat
+- title: Vibhum Pandey
 footer: Made by  with ❤️
 ---
